@@ -9,10 +9,6 @@ This project implements a secure authentication system that includes user login 
 - Input Validation: Implements user input validation to prevent SQL injection attacks.
 - Database Integration: Utilizes a database to store user credentials securely.
 
-## Screenshots from the program execution
-![s2](https://github.com/user-attachments/assets/71230812-5e82-4ca2-b526-2c28c2a638e8)
-![s1](https://github.com/user-attachments/assets/064cf824-36d6-4ccc-8e30-fec7c1a81d28)
-
 ## Getting Started
 ### Prerequisites
 - Java Development Kit (JDK) installed on your machine.
@@ -22,3 +18,10 @@ This project implements a secure authentication system that includes user login 
 - Clone the repository using git clone https://github.com/Zanaad/DataSecurity.git
 - Use the DataSecurity.sql file included in the repository to set up your database
 - Start the application by running the App class.
+## Usage
+- Registration: Navigate to the registration screen and enter a username and password to create a new account.
+- Login: After registration, use your credentials to log in.
+- Security Features: The application will hash your password securely using a salted hash method.
+## Execution Screenshots
+![s2](https://github.com/user-attachments/assets/71230812-5e82-4ca2-b526-2c28c2a638e8)
+![s1](https://github.com/user-attachments/assets/064cf824-36d6-4ccc-8e30-fec7c1a81d28)
