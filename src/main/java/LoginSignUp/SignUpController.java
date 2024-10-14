@@ -14,7 +14,7 @@ import java.security.SecureRandom;
 import java.util.Formatter;
 import java.util.ResourceBundle;
 
-public class SIgnUpController implements Initializable {
+public class SignUpController implements Initializable {
     @FXML
     private Button signupButton;
     @FXML
