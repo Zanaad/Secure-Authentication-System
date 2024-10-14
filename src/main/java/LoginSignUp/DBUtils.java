@@ -83,7 +83,7 @@ public class DBUtils {
                     while (resultSet.next()) {
                         String retrievedPassword = resultSet.getString("HashedPassword");
                         String salt = resultSet.getString("Salt");
-                        String hashedEnteredPassword = SIgnUpController.hashPassword(password, salt);
+                        String hashedEnteredPassword = SignUpController.hashPassword(password, salt);
 
                         if (retrievedPassword.equals(hashedEnteredPassword)) {
                             changeScene(event, "loggedin.fxml", "Welcome", username);
