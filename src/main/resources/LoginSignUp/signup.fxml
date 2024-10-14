@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginSignUp.SIgnUpController">
+   <children>
+      <AnchorPane prefHeight="400.0" prefWidth="300.0" style="-fx-background-color: #263;">
+         <children>
+            <Label layoutX="58.0" layoutY="73.0" text="Data Security" textFill="WHITE">
+               <font>
+                  <Font name="Verdana Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="109.0" layoutY="131.0" text="Autentikimi" textFill="WHITE">
+               <font>
+                  <Font name="Verdana" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="400.0" prefWidth="300.0">
+         <children>
+            <Label layoutX="27.0" layoutY="117.0" text="Username" />
+            <Label layoutX="28.0" layoutY="178.0" text="Password" />
+            <Button fx:id="signupButton" layoutX="80.0" layoutY="253.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="137.0" style="-fx-background-color: #263;" text="Sign Up" textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <TextField fx:id="tfUsername" layoutX="115.0" layoutY="113.0" promptText="Username" />
+            <PasswordField fx:id="pfPassword" layoutX="115.0" layoutY="174.0" promptText="Password" />
+            <Label layoutX="115.0" layoutY="57.0" text="Sign up">
+               <font>
+                  <Font name="Verdana" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="loginButton" alignment="BOTTOM_LEFT" layoutX="178.0" layoutY="321.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="81.0" style="-fx-background-color: transparent; -fx-cursor: hands;" text="Log in" textFill="#226633" underline="true">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Button>
+            <Label layoutX="46.0" layoutY="327.0" text="Already a member?">
+               <font>
+                  <Font name="Verdana" size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>
