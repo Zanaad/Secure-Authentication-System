@@ -1,4 +1,4 @@
-### Secure Authentication System
+# Secure Authentication System
 ## Overview
 This project implements a secure authentication system that includes user login and registration features. It is designed to provide a robust solution for managing user credentials while ensuring the security of passwords and protection against common vulnerabilities.
 
